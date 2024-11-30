@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#292d36"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:hint="username"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:padding="9dp"
+        android:id="@+id/idUsername"
+        android:layout_weight="1.5"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:id="@+id/idPassword"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:hint="password"
+        android:padding="9dp"
+        android:layout_weight="1.5"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:layout_margin="20dp"
+        android:id="@+id/idSubmitbtn"
+        android:text="Submit"
+        android:textSize="24sp"
+        android:background="#F8700B"/>
+    </LinearLayout>
+</LinearLayout>
